@@ -90,13 +90,13 @@
         echo '<p class="kr-mail-sub">Nos pondremos en contacto a la brevedad. ¡Gracias por escribirnos!</p>';
         echo '<a href="index.html" class="kr-btn-primary" style="margin:0 auto;">Volver al inicio</a>';
         echo '<p class="kr-mail-note">Serás redirigido automáticamente en unos segundos...</p>';
-        echo '<script>setTimeout(function(){ window.location.href="index.html"; }, 4000);</script>';
+        echo '<script>setTimeout(function(){ window.location.href="/v2/index.html"; }, 4000);</script>';
     } else {
         echo '<div class="kr-mail-icon err"><i class="fas fa-exclamation-triangle" aria-hidden="true"></i></div>';
         echo '<h1 class="kr-mail-title">Algo salió mal</h1>';
         echo '<p class="kr-mail-sub">Ocurrió un error al enviar tu mensaje. Por favor escribinos directamente a <a href="mailto:info@asesoriacontablekr.com.ar">info@asesoriacontablekr.com.ar</a></p>';
         echo '<a href="contacto.html" class="kr-btn-primary" style="margin:0 auto;">Volver al formulario</a>';
-        echo '<script>setTimeout(function(){ window.location.href="contacto.html"; }, 6000);</script>';
+        echo '<script>setTimeout(function(){ window.location.href="/v2/contacto.html"; }, 6000);</script>';
     }
 ?>
     </div>
