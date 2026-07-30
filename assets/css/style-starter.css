@@ -18541,9 +18541,9 @@ nav ul li a:hover {
 }
 
 h3.banner-style {
-  font-size: 60px;
-  line-height: 70px;
-  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: normal;
 }
 
 .banner-content p {
@@ -18552,22 +18552,22 @@ h3.banner-style {
 
 @media (max-width: 1200px) {
   h3.banner-style {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 32px;
+    line-height: 42px;
   }
 }
 
 @media (max-width: 568px) {
   h3.banner-style {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 28px;
+    line-height: 38px;
   }
 }
 
 @media (max-width: 460px) {
   h3.banner-style {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 26px;
+    line-height: 36px;
   }
 
   .btn-style {
@@ -18577,8 +18577,8 @@ h3.banner-style {
 
 @media (max-width: 360px) {
   h3.banner-style {
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 24px;
+    line-height: 34px;
   }
 
   .btn-style {
